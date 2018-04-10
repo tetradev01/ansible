@@ -2,7 +2,7 @@
 
 ansible role to install Docker CE on CentOS
 
-https://galaxy.ansible.com/suzuki-shunsuke/docker-ce-centos/
+
 
 ## Requirements
 
@@ -26,7 +26,7 @@ Nothing.
 ```yaml
 - hosts: servers
   roles:
-  - role: suzuki-shunsuke.docker-ce-centos
+  - role: Demo
     docker_centos_state: started
     docker_centos_enabled: yes
     docker_centos_users:
